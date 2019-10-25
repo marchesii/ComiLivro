@@ -1,6 +1,6 @@
 body{
    width:100%;
-   height:100%; 
+   height:120%;
    margin: 0 auto;
 }
 
@@ -8,6 +8,34 @@ body{
     width:100%;
     height:63px;
     background-color: #0c3c60;
+}
+
+.home-contexto{
+    width:100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.home-contexto ul li{
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.home-contexto ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    display: inline-block;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.imagem-escala{
+    width:100%;
+    height:300px;
 }
 
 main{
@@ -28,6 +56,7 @@ main{
     width:980px;
     margin: 0 auto;
     border-bottom: 3px solid #efefef;
+    opacity: 0.1;
     background-color: #ffffff;
 }
 
@@ -37,8 +66,8 @@ main{
     color: #8b8b8b;
 }
 
-.menu ul li a{
-    font-size: 16px;
+.menu ul li a img{
+    height:70%;
     text-decoration: none;
     text-transform: uppercase;
     color: #8b8b8b;
@@ -49,9 +78,14 @@ main{
     float:left;
 }
 
-.busca{
-    width:30%;
+.icons-menu{
+    height: 20px;
     float:right;
+    position: absolute;
+}
+
+.busca{
+    float:left;
 }
 
 .busca ul li{
@@ -66,6 +100,8 @@ main{
 }
 
 .col-100{
+    height: 52px;
+    margin: 0 auto;
     width:100%;
     float:left;
     position:relative;
