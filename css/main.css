@@ -1,0 +1,72 @@
+body{
+   width:100%;
+   height:100%; 
+   margin: 0 auto;
+}
+
+.menu-inicial{
+    width:100%;
+    height:63px;
+    background-color: #0c3c60;
+}
+
+main{
+    margin: 0 auto;
+    width:980px;
+    position:relative;
+}
+
+.logo{
+    padding-top: 10px;
+    float:left;
+    width:70%;
+}
+
+.pagina-topo{
+    height: 52px;
+    position: relative;
+    width:980px;
+    margin: 0 auto;
+    border-bottom: 3px solid #efefef;
+    background-color: #ffffff;
+}
+
+.menu ul li{
+    margin-left: 15px;
+    display: inline-block;
+    color: #8b8b8b;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8b8b8b;
+}
+
+.menu{
+    width:70%;
+    float:left;
+}
+
+.busca{
+    width:30%;
+    float:right;
+}
+
+.busca ul li{
+    margin-left: 15px;
+    display: inline-block;
+    color:  #8b8b8b;
+}
+
+.busca ul li a{
+    text-decoration: none;
+    float:right;
+}
+
+.col-100{
+    width:100%;
+    float:left;
+    position:relative;
+}
